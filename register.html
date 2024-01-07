@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script src="https://kit.fontawesome.com/d4f4bc68b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<form action="register.php" method="POST">
+		<img class="logo" src="wolfpay3.png" alt="Logo" />
+		<h1>Register</h1>
+		<div class="media">
+			<p><i class="fa-brands fa-google"></i></p>
+			<p><i class="fa-brands fa-facebook"></i></p>
+			<p><i class="fa-brands fa-twitter"></i></p>
+			<p><i class="fa-brands fa-instagram"></i></p>
+		</div>
+		<p class="email">Complete this form</p>
+
+	<div class="input">
+		<input type="text" name="name" placeholder="Name" required>
+		<input type="email" name="email"  placeholder="Email" required>
+		<select name="phone" id="phone">
+			<option value="+225">+225</option>
+			<option value="+226">+226</option>
+			<option value="+223">+223</option>
+			<option value="+221">+221</option>
+		</select>
+		<input type="tel" name="phone" placeholder="0745255254 "required>
+		<input type="password" name="code"  placeholder="Password" required>
+	</div>
+
+	<p class="register">
+		I have an <span>Account</span>? <span><a href="connexion.php">Login Now!</a></span>
+			
+	</p>
+	<div align="center">
+		<button type="submit">Register</button>
+	</div>
+	</form>
+	
+</body>
+</html>

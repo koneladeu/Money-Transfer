@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #464646;
+	/*background-image: url("../img/account1.jpg");
+	background-repeat: no-repeat;*/
+	/*background: url("https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/214562607_3617285671829808_7473824889617670752_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGuqxEqo6XSJDE5ypeZuOB6bND2AZ_7Vz1s0PYBn_tXPcnjOBNqqn_B3XVuSYepLAHP8PyhlEgOp0BQyQ-gRadX&_nc_ohc=hv4zhc7B6koAX_3jyXR&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfDPOPc8gonKdBXpEJtyAB11H_T27qdGR8XXKIuwWnC7cA&oe=63664DC3") no-repeat;*/
+	/*background-size: cover;
+	height: 100vh;
+	background-position: center;*/
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form{
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 40px 60px;
+	border-radius: 10px;
+	min-width: 300px;
+}
+
+form h1{
+	color: #221c9e;
+	text-align: center;
+}
+
+form .input {
+  	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+
+}
+
+
+form .input button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #221f23;
+  background-color: #9b9fa7;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.5s;
+  text-align: left;
+  /*width: calc(50% - 10px); 
+  /* Subtracting 10px to account for margin */
+  /*margin: 5px;*/
+  width: 100px;
+}
+
+form .cancel-button{
+		padding: 15px 20px;
+		border: none;
+		border-radius: 5px;
+		font-size: 15px;
+		color: #221f23;
+		background-color: #9b9fa7;
+		outline: none;
+		cursor: pointer;
+		transition: background 0.5s ;
+		width: 200px;
+	}
+
+	form .confirm-button{
+		padding: 15px 20px;
+		border: none;
+		border-radius: 5px;
+		font-size: 15px;
+		color: #221f23;
+		background-color: #9b9fa7;
+		outline: none;
+		cursor: pointer;
+		transition: background 0.5s ;
+		width: 200px;
+		
+	}
+
+	form .confirm-button:hover {
+		background:#bb051f ;
+	}
+
+	form .cancel-button:hover{
+		background: #09af35;
+	}
+/*form .cancel-button{
+	padding: 15px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #221f23;
+	background-color: #9b9fa7;
+	outline: none;
+	cursor: pointer;
+	transition: background 0.5s ;
+	
+}
+form .confirm-button{
+	padding: 15px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #221f23;
+	background-color: #9b9fa7;
+	outline: none;
+	cursor: pointer;
+	transition: background 0.5s ;
+	text-align: left;
+}
+*/

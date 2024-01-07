@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+   /* Center and style the h1 tag */
+    .h3{
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-weight: 900;
+	font-size: xx-large;	
+  }
+
+  
+  
+  #balance {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+  }  
+
+.balance-container {
+text-align: center;
+}
+
+.btn3 {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #221c9e;
+	color: white;
+	text-align: center;
+	font-size: 26px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 10%;
+	border: none;
+	width: 200px;
+	height: 50px;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.btn2 {
+	display: inline-flex;
+	padding: 10px 20px;
+	background-color: none;
+	color: none;
+	text-align: center;
+	font-size: 18px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 50%;
+	border: none;
+	width: 20px;
+	height: 10px;
+	line-height: 1;
+}
+
+.btn {
+display: flex;
+padding: 10px 20px;
+background-color: #1ccd44;
+color: white;
+text-align: center;
+font-size: 26px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 50%;
+border: none;
+width: 200px;
+height: 100px;
+line-height: 2;
+
+
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.button-wrapper {
+	width: max-content;
+	display: inline-flex;
+	justify-content: space-between;
+	-moz-box-align: center;
+  }  
+
+
+body{
+	margin: 0;
+	padding: 0;
+	/*background-color: #464646;*/
+	/*background-image: url("../img/account1.jpg");
+	background-repeat: no-repeat;*/
+	/*background: url("https://scontent.fabj1-1.fna.fbcdn.net/v/t39.30808-6/214562607_3617285671829808_7473824889617670752_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGuqxEqo6XSJDE5ypeZuOB6bND2AZ_7Vz1s0PYBn_tXPcnjOBNqqn_B3XVuSYepLAHP8PyhlEgOp0BQyQ-gRadX&_nc_ohc=hv4zhc7B6koAX_3jyXR&_nc_zt=23&_nc_ht=scontent.fabj1-1.fna&oh=00_AfDPOPc8gonKdBXpEJtyAB11H_T27qdGR8XXKIuwWnC7cA&oe=63664DC3") no-repeat;*/
+	/*background-size: cover;
+	height: 100vh;
+	background-position: center;*/
+	font-family: 'Poppins', sans-serif;
+	/*display: flex;*/
+	/*justify-content: center;
+	align-items: center*/
+	/*background-color: black;*/
+
+}
+
+header {
+	background-color: #221c9e;
+	color: #fff;
+	padding: 20px;
+	background:url("../img/wolfpa.png") ;
+	background-repeat: no;
+	background-size: auto;
+	background-position: center;
+
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: -webkit-match-parent;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul li a i {
+  margin-top: 5px;
+}
+
+nav ul li a:hover i {
+  color: #221c9e;
+}
+
+
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.hero {
+	background-color: #f2f2f2;
+	padding: 50px;
+	text-align: center;
+}
+
+.hero h2 {
+	margin: 0;
+}
+
+.btn {
+	background-color: #1ccd44;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.btn:hover {
+	background-color: #2db54c;
+}
+
+.overview {
+	margin-top: 50px;
+}
+
+.overview ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.overview li {
+	margin: 0 20px 20px 0;
+	flex: 1 0 200px;
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.overview li strong {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.toggle-btn {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+  
+.toggle-btn:hover {
+	background-color: #3e8e41;
+}
+  
+.transactions {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.transactions table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.transactions th {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+}
+.transactions td {
+padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+}
+
+.transactions th {
+	background-color: #221c9e;
+	color: #fff;
+}
+
+.transactions a.btn {
+	display: block;
+	width: 200px;
+	margin: 20px auto 0;
+	text-align: center;
+}
+
+.success{
+	background:#c7eac1 ;
+	color: #02d43d;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px ;
+	margin: 20px auto ;
+}
+
+.logo img{
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+.col2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.navbar{
+	display: flex;
+	align-items:center;
+	padding: 20px;
+}
+
+.col2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25%;
+}

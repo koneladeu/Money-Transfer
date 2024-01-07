@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+form{
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 40px 60px;
+	border-radius: 10px;
+	min-width: 300px;
+}
+
+form h1{
+	color: #221c9e;
+	text-align: center;
+}
+form .input{
+	display: flex;
+	flex-direction: column;
+}
+form button{
+	padding: 15px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #221c9e;
+	outline: none;
+	cursor: pointer;
+	transition: background 0.5s ;
+}
+
+form button:hover{
+	background: #0851e2;
+}
+form .input input[type="password"]{
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f2f2f2;
+	margin-bottom: 15px;
+	outline: none;
+}
+.contact{
+	position: relative;
+	min-height: 100vh;
+	position: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url("../img/wolfpa.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.contact .content{
+max-width: 800px;
+text-align: center;
+}
+.contact .content h2{
+	font-size: 36px ;
+	font-weight: 500;
+	color: #fff;
+}
+.contact .content p{
+
+	font-weight: 300;
+	color: #fff;
+}
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.container .contactinfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.container .contactinfo .box{
+position: relative;
+padding: 20px 0;
+display: flex;
+}
+
+.container .contactinfo .box .icon{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+.container .contactinfo .box .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+}
+
+.container .contactinfo .box .text h3{
+	font-weight: 500;
+	color: #00bcd4;
+}
+.contactform{
+	width: 40%;
+	padding: 40px;
+	background: #fff;
+}
+.contactform h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+
+.contactform .inputbox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+
+.contactform .inputbox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+/*a regler*/
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span {
+    color: #221c9e;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]{
+	width: 100px ;
+	background: #00bcd4;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+
+@media(max-width: 991px){
+	.contact{
+		padding: 50px;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.container .contactinfo{
+		margin-bottom: 40px;
+	}
+	.container .contactinfo,
+	.contactform{
+		width: 100%;
+	}
+}
